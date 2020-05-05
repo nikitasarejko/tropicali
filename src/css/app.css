@@ -86,6 +86,10 @@ section.grid p {
     margin: 1.25rem 0;
 }
 
+section.grid img {
+    width: 100%;
+}
+
 section.centered {
     text-align: center;
     width: var(--centered-width);
