@@ -2,7 +2,7 @@
 @custom-media --mq-small (max-width: 32rem);
 
 :root {
-    --primary-color: #f70201;
+    --primary-color: #ff3300;
     --text-on-light: #151620;
     --text-on-dark: #ffffff;
     --background-color: #ffffff;
