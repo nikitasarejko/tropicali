@@ -210,9 +210,14 @@ gulp.task("watch", function () {
     gulp.watch("src/css/*.css", gulp.series("css"))
 })
 
-gulp.task("deploy", function () {
+// gulp.task("deploy", function () {
+//     ghpages.publish("dist")
+// })
+
+gulp.task('deploy', done => {
     ghpages.publish("dist")
-})
+    done();
+  });
 
 // Runs all the following tasks on "gulp" command
 const build = gulp.series(["html", "css", "fonts", "images", "watch"])
